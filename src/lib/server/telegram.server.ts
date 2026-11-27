@@ -5,11 +5,11 @@ import { alertTypeFor, formatAlert, isAlertEnabled } from "@/lib/alerts";
 export type TelegramConfig = {
   token: string;
   webhook_secret: string;
-  bot_username?: string;
-  chat_id?: number;
-  chat_title?: string;
-  link_code?: string;
-  link_expires?: number;
+  bot_username?: string | undefined;
+  chat_id?: number | undefined;
+  chat_title?: string | undefined;
+  link_code?: string | undefined;
+  link_expires?: number | undefined;
 };
 
 type Db = any; // supabase client (admin or user)
