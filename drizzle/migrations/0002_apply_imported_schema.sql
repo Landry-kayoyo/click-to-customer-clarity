@@ -1,0 +1,1 @@
+comment on table public.saas is 'SaaS suivis par VisionNet';

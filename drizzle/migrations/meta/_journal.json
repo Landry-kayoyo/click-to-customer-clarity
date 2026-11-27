@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795780056511,
+      "tag": "0000_visionnet_base_and_step2",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795782439814,
+      "tag": "0001_noop_after_import",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795784688278,
+      "tag": "0002_apply_imported_schema",
+      "breakpoints": true
+    }
+  ]
+}
